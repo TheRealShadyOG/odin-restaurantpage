@@ -1,1 +1,3 @@
-console.log();
+import { pageLoad } from "./domManipulate";
+
+pageLoad();
