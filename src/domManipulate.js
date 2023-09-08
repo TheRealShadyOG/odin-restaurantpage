@@ -99,4 +99,9 @@ function createBackground() {
     body.appendChild(background);
 }
 
-export { createContent, createBackground };
+function pageLoad() {
+    createContent();
+    createBackground();
+}
+
+export { pageLoad };
