@@ -98,3 +98,5 @@ function createBackground() {
     background.appendChild(cite);
     body.appendChild(background);
 }
+
+export { createContent, createBackground };
