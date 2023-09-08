@@ -1,3 +1,3 @@
-import { pageLoad } from "./domManipulate";
+import { loadHomePage } from "./homePage";
 
-pageLoad();
+loadHomePage();
