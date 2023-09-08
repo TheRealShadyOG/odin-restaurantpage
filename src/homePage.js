@@ -99,9 +99,9 @@ function createBackground() {
     body.appendChild(background);
 }
 
-function pageLoad() {
+function loadHomePage() {
     createContent();
     createBackground();
 }
 
-export { pageLoad };
+export { loadHomePage };
