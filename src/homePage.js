@@ -6,11 +6,14 @@ function createContent() {
 
     const home = document.createElement('div');
     home.textContent = 'Home';
+    home.classList.add('homeButton');
     home.setAttribute('id', 'current');
     const menu = document.createElement('div');
     menu.textContent = 'Menu';
+    menu.classList.add('menuButtonHeader');
     const contact = document.createElement('div');
     contact.textContent = 'Contact';
+    contact.classList.add('contactButton');
 
     header.appendChild(home);
     header.appendChild(menu);
