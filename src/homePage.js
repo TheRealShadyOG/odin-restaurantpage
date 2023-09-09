@@ -6,6 +6,7 @@ function createContent() {
 
     const home = document.createElement('div');
     home.textContent = 'Home';
+    home.setAttribute('id', 'current');
     const menu = document.createElement('div');
     menu.textContent = 'Menu';
     const contact = document.createElement('div');
