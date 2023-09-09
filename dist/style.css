@@ -11,7 +11,7 @@ body {
     background-color: #d4d4d8;
 }
 
-#background {
+#background, #menuBackground {
     height: 100vh;
     width: 40vw;
     background-image: url(../src/img/homebackground.jpg);
@@ -61,7 +61,7 @@ body {
     cursor: pointer;
 }
 
-#main {
+#main, #menuBody {
     height: 85vh;
     background-color: #d4d4d8;
     color: #3f3f46;
@@ -72,7 +72,7 @@ body {
     gap: 13vh;
 }
 
-#name {
+#name, #menuHeader {
     font-weight: bold;
     font-size: 7vh;
 }
@@ -127,4 +127,51 @@ body {
 #svg:hover {
     filter: opacity(0.4);
     cursor: pointer;
+}
+
+/* Changes for menu page */
+
+#menuBackground {
+    background-image: url(../src/img/menuBackground.jpg);
+    justify-content: start;
+}
+
+#menuBackground > div {
+    margin-left: 8px;
+}
+
+#menuBody {
+    justify-content: start;
+    gap: 24px;
+}
+
+#menuHeader {
+    padding-top: 2vh;
+}
+
+#menuContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#menuCategories {
+    font-size: 2.4vh;
+    margin-top: 16px;
+}
+
+#itemGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menuItem {
+    display: flex;
+    gap: 16px;
+}
+
+#menuItem> div:first-child {
+    color: #71717a;
 }
