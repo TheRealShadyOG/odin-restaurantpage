@@ -44,7 +44,9 @@ function setEventListeners() {
     menuButtonHeader.addEventListener('click', loadMenu);
 
     const menuButton = document.querySelector('#menu');
-    menuButton.addEventListener('click', loadMenu);
+    if (menuButton !== null) {
+        menuButton.addEventListener('click', loadMenu);
+    }
 
     const contactButton = document.querySelector('.contactButton');
     contactButton.addEventListener('click', loadContact)
