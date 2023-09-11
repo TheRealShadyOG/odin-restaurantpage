@@ -1,11 +1,11 @@
 import { loadHomePage } from "./homePage";
 import { loadMenuPage } from "./menuPage";
+import { loadContactPage } from "./contactPage";
 
 loadHomePage();
 
 const body = document.querySelector('body');
 const content = document.querySelector('#content');
-
 
 
 function loadMenu() {
@@ -31,7 +31,7 @@ function loadContact(){
     while (content.firstChild) {
         content.removeChild(content.lastChild);
     }
-    // loadContactPage();
+    loadContactPage();
     setEventListeners();
 }
 
