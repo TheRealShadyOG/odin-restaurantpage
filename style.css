@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'myFont';
-    src: url(../src/Cinzel-VariableFont_wght.ttf);
+    src: url(./resources/Cinzel-VariableFont_wght.ttf);
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 #background, #menuBackground, #contactBackground {
     height: 100vh;
     width: 40vw;
-    background-image: url(../src/img/homebackground.jpg);
+    background-image: url(./resources/img/homebackground.jpg);
     background-size: 40vw 100vh;
     background-position: center;
 
@@ -132,7 +132,7 @@ body {
 /* Changes for menu page */
 
 #menuBackground {
-    background-image: url(../src/img/menuBackground.jpg);
+    background-image: url(./resources/img/menuBackground.jpg);
     justify-content: start;
 }
 
@@ -172,14 +172,14 @@ body {
     gap: 16px;
 }
 
-#menuItem> div:first-child {
+#menuItem > div:first-child {
     color: #71717a;
 }
 
 /* Changes for contact page */
 
 #contactBackground {
-    background-image: url(../src/img/map.jpg);
+    background-image: url(./resources/img/map.jpg);
 }
 
 #contactBody {
