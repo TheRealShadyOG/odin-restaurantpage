@@ -11,7 +11,7 @@ body {
     background-color: #d4d4d8;
 }
 
-#background, #menuBackground {
+#background, #menuBackground, #contactBackground {
     height: 100vh;
     width: 40vw;
     background-image: url(../src/img/homebackground.jpg);
@@ -61,7 +61,7 @@ body {
     cursor: pointer;
 }
 
-#main, #menuBody {
+#main, #menuBody, #contactBody {
     height: 85vh;
     background-color: #d4d4d8;
     color: #3f3f46;
@@ -174,4 +174,34 @@ body {
 
 #menuItem> div:first-child {
     color: #71717a;
+}
+
+/* Changes for contact page */
+
+#contactBackground {
+    background-image: url(../src/img/map.jpg);
+}
+
+#contactBody {
+    gap: 6vh;
+}
+
+#contactHeader {
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+#contactInfo {
+    font-size: 2vh;
+    text-align: center;
+}
+
+#hours {
+    font-size: 2vh;
+    text-align: center;
+}
+
+#hours > div:first-child {
+    font-size: 2.3vh;
+    font-weight: bold;
 }
