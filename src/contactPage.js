@@ -82,13 +82,13 @@ function createContent() {
     footer.setAttribute('id', 'footer');
 
     const facebook = document.createElement('img');
-    facebook.setAttribute('src', '../src/img/facebook.svg');
+    facebook.setAttribute('src', './resources/img/facebook.svg');
     facebook.setAttribute('id', 'svg');
     const instagram = document.createElement('img');
-    instagram.setAttribute('src', '../src/img/instagram.svg');
+    instagram.setAttribute('src', './resources/img/instagram.svg');
     instagram.setAttribute('id', 'svg');
     const twitter = document.createElement('img');
-    twitter.setAttribute('src', '../src/img/twitter.svg');
+    twitter.setAttribute('src', './resources/img/twitter.svg');
     twitter.setAttribute('id', 'svg');
 
     footer.appendChild(facebook);
