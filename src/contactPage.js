@@ -105,7 +105,7 @@ function createBackground() {
     const body = document.querySelector('body');
 
     const background = document.createElement('div');
-    background.setAttribute('id', 'background');
+    background.setAttribute('id', 'contactBackground');
 
     const cite = document.createElement('div');
     cite.setAttribute('id', 'cite');
